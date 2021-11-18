@@ -1,0 +1,23 @@
+block headerVars 
+  - var headerLogo1 = 'YACHT';
+  - var headerLogo2 = 'tour';
+  - var headerNav1 = 'О нас';
+  - var headerNav2 = 'Галерея';
+  - var headerNav3 = 'Контакты';
+
+
+header.header 
+  .container.header__container 
+
+    a.header__logo(href='#' data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease" data-aos-delay="100")
+      | #{headerLogo1}
+      span #{headerLogo2}
+
+    nav.header__nav.nav 
+      ul.nav__list 
+        li.nav__item(data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease" data-aos-delay="400")
+          a.nav__link.is_active(href="#static") #{headerNav1}
+        li.nav__item(data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease" data-aos-delay="500")
+          a.nav__link(href="#gallery") #{headerNav2}
+        li.nav__item(data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease" data-aos-delay="600")
+          a.nav__link(href="#contacts") #{headerNav3}

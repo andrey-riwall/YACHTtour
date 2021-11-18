@@ -1,0 +1,39 @@
+.hero {
+  height: vw(714);
+  padding: vw(198) 0 0;
+
+  background: url('../img/hero/bg.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__heading {
+  display: flex;
+  flex-direction: column;
+  max-width: vw(584);
+
+  margin: 0;
+  margin-bottom: vw(50);
+
+  font-weight: 300;
+  font-size: vw(82);
+  line-height: vw(86);
+
+  color: var(--color-white);
+
+  span {
+    font-weight: 500;
+  }
+}
+
+.hero__desc {
+  display: inline-block;
+  max-width: vw(232);
+  color: var(--color-white);
+
+  margin-bottom: vw(50);
+
+  &:first-of-type {
+    margin-right: vw(50); 
+  }
+}

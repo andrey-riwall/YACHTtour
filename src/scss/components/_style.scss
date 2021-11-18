@@ -1,0 +1,41 @@
+.heading {
+  font-weight: 600;
+  font-size: vw(52);
+  line-height: vw(62);
+  letter-spacing: -0.02em;
+
+  color: var(--color-heading);
+
+  span {
+    font-weight: 300;
+  }
+}
+
+.desc {
+  font-weight: 300;
+  font-size: vw(15);
+  line-height: vw(19);
+
+  color: var(--color-travel-desc);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: vw(300);
+  height: vw(60);
+
+  font-weight: 500;
+  font-size: vw(17);
+  line-height: vw(21);
+
+  color: var(--color-header-btn);
+  background: var(--color-white);
+}
+
+.btn_green {
+  color: var(--color-white);
+  background: var(--color-contacts-btn-bg);
+}

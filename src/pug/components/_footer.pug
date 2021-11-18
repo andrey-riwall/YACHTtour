@@ -1,0 +1,12 @@
+block footerVars
+  - var footerLogo1 = 'YACHT';
+  - var footerLogo2 = 'tour';
+  - var footerText = 'Все изображения принадлежат правообладателям. Дизайн-макет создан исключительно в образовательных целях';
+
+
+footer.footer 
+  .container.footer__container
+    a.footer__logo(href="#")
+      | #{footerLogo1}
+      span #{footerLogo2}
+    p.footer__text #{footerText}

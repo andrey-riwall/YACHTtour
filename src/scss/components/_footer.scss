@@ -1,0 +1,33 @@
+.footer {
+  height: vw(57);
+  background: var(--color-white);
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  max-width: vw(1160);
+  padding: vw(15) 0;
+}
+
+.footer__logo {
+  font-weight: 600;
+  font-size: vw(22);
+  line-height: vw(26);
+
+  color: var(--color-footer-text);
+
+  span {
+    font-weight: 300;
+  }
+}
+
+.footer__text {
+  font-weight: 300;
+  font-size: vw(8);
+  line-height: vw(9);
+
+  color: var(--color-footer-text);
+}

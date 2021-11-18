@@ -1,0 +1,31 @@
+// COLORS
+:root {
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-heading: #171717;
+
+  // header
+  --color-header-link: #CCCCCC;
+  --color-header-border: rgba(255, 255, 255, 0.3);
+  --color-header-btn: #20706D;
+
+  // static
+  --color-static-names: #717171;
+  --color-static-shadow: rgba(0, 0, 0, 0.2);
+
+  // travel
+  --color-travel-heading: #171717;
+  --color-travel-desc: #404040;
+  --color-travel-num: #D4D2D2;
+
+  // contacts
+  --color-contacts-bg: #F4F4F4;
+  --color-contacts-low-heading: #171717;
+  --color-contacts-desc: #404040;
+  --color-contacts-border: #8A8A8A;
+  --color-contacts-btn-bg: #015D5A;
+
+  // footer
+  --color-footer-text: #015D5A;
+  --color-footer-border: rgba(0, 0, 0, 0.3);
+}

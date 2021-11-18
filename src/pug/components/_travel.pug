@@ -1,0 +1,36 @@
+block travelVars 
+  - var travelHeading1 = 'Путешествуйте ';
+  - var travelHeading2 = ' вместе с нами';
+
+  - var travelLowHeading1 = 'Просторные и современные яхты';
+  - var travelLowDesc1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu hendrerit odio. Donec tellus ante, faucibus vitae posuere ut, porta non lorem. Nulla volutpat placerat sapien vitae eleifend. Duis sed pharetra mi, eu interdum diam.';
+  - var travelLowHeading2 = 'Профессиональные капитаны';
+  - var travelLowDesc2 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu hendrerit odio. Donec tellus ante, faucibus vitae posuere ut, porta non lorem. Nulla volutpat placerat sapien vitae eleifend. Duis sed pharetra mi, eu interdum diam.';
+  - var travelLowHeading3 = 'Персональная поддержка 24/7';
+  - var travelLowDesc3 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu hendrerit odio. Donec tellus ante, faucibus vitae posuere ut, porta non lorem. Nulla volutpat placerat sapien vitae eleifend. Duis sed pharetra mi, eu interdum diam.';
+
+
+
+section.travel 
+  .container.travel__container
+    h2.travel__heading.heading(data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease" data-aos-delay="100")
+      | #{travelHeading1}
+      span #{travelHeading2}
+
+    .travel__content
+      ul.travel__list 
+        li.travel__item(data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease" data-aos-delay="200")
+          span.travel__num 01
+          h3.travel__low-heading #{travelLowHeading1}
+          p.travel__low-desc.desc #{travelLowDesc1}
+        li.travel__item(data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease" data-aos-delay="300")
+          span.travel__num 02
+          h3.travel__low-heading #{travelLowHeading2}
+          p.travel__low-desc.desc #{travelLowDesc2}
+        li.travel__item(data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease" data-aos-delay="400")
+          span.travel__num 03
+          h3.travel__low-heading #{travelLowHeading3}
+          p.travel__low-desc.desc #{travelLowDesc3}
+
+      img.travel__img(src="img/travel/img.png", alt="Изображение" data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease" data-aos-delay="700")
+
